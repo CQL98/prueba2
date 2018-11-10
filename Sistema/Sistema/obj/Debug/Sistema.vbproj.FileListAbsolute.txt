@@ -1,0 +1,212 @@
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\ApplicationInsights.config
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\roslyn\csc.exe
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\roslyn\System.Collections.Immutable.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\roslyn\vbc.exe
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\roslyn\VBCSCompiler.exe
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\roslyn\VBCSCompiler.exe.config
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Sistema.dll.config
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Sistema.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Sistema.pdb
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\WebForms_Basic.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Antlr3.Runtime.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\AspNet.ScriptManager.bootstrap.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\EntityFramework.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\EntityFramework.SqlServer.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AI.Web.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AI.WindowsServer.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.ApplicationInsights.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.Google.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Web.Infrastructure.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Newtonsoft.Json.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Owin.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\System.Web.Optimization.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\System.Web.Providers.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\WebGrease.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AI.Web.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AI.WindowsServer.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.ApplicationInsights.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\System.Web.Optimization.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Antlr3.Runtime.pdb
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Newtonsoft.Json.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\EntityFramework.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\EntityFramework.SqlServer.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\System.Web.Providers.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.Google.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\System.Web.Optimization.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\EntityFramework.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\EntityFramework.SqlServer.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\Microsoft.Owin.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\Microsoft.Owin.Security.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\Microsoft.Owin.Security.Google.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\obj\Debug\Sistema.vbprojResolveAssemblyReference.cache
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\obj\Debug\Sistema.Resources.resources
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\obj\Debug\Sistema.vbproj.GenerateResource.Cache
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\obj\Debug\Sistema.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\obj\Debug\WebForms_Basic.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\obj\Debug\Sistema.pdb
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\CapaEntidad.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\CapaNegocio.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\CapaDatos.dll
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\CapaEntidad.pdb
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\CapaEntidad.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\CapaNegocio.pdb
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\CapaNegocio.xml
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\CapaDatos.pdb
+c:\users\sistemas\documents\visual studio 2015\Projects\Sistema\Sistema\bin\CapaDatos.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\ApplicationInsights.config
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\roslyn\csc.exe
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\roslyn\vbc.exe
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Sistema.dll.config
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Sistema.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Sistema.pdb
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\WebForms_Basic.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Antlr3.Runtime.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\CapaEntidad.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\CapaNegocio.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\EntityFramework.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\EntityFramework.SqlServer.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AI.Web.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Newtonsoft.Json.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Owin.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\System.Web.Optimization.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\System.Web.Providers.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\WebGrease.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\CapaDatos.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\CapaEntidad.pdb
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\CapaEntidad.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\CapaNegocio.pdb
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\CapaNegocio.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AI.Web.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\System.Web.Optimization.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Antlr3.Runtime.pdb
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Newtonsoft.Json.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\EntityFramework.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\EntityFramework.SqlServer.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\System.Web.Providers.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\CapaDatos.pdb
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\CapaDatos.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\EntityFramework.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\obj\Debug\Sistema.vbprojResolveAssemblyReference.cache
+C:\Users\Sistemas\Desktop\Sistema\Sistema\obj\Debug\Sistema.Resources.resources
+C:\Users\Sistemas\Desktop\Sistema\Sistema\obj\Debug\Sistema.vbproj.GenerateResource.Cache
+C:\Users\Sistemas\Desktop\Sistema\Sistema\obj\Debug\Sistema.dll
+C:\Users\Sistemas\Desktop\Sistema\Sistema\obj\Debug\WebForms_Basic.xml
+C:\Users\Sistemas\Desktop\Sistema\Sistema\obj\Debug\Sistema.pdb
