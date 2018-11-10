@@ -1,0 +1,15 @@
+Sistema de ventas 
+-usuario-vendedor	venta,venta-detalle,articulo
+-usuario-almacen	articulo(crear aumentar lote),
+
+producto
+marca
+categoria
+
+proveedor
+
+
+tarea 
+login
+plantilla 
+2 mantenedores con pantalla modal
