@@ -1,0 +1,30 @@
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\bin\Debug\CapaNegocio.dll
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\bin\Debug\CapaNegocio.pdb
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\bin\Debug\CapaNegocio.xml
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\bin\Debug\CapaDatos.dll
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\bin\Debug\CapaEntidad.dll
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\bin\Debug\CapaDatos.pdb
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\bin\Debug\CapaDatos.xml
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\bin\Debug\CapaEntidad.pdb
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\bin\Debug\CapaEntidad.xml
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\obj\Debug\CapaNegocio.vbprojResolveAssemblyReference.cache
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\obj\Debug\CapaNegocio.Resources.resources
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\obj\Debug\CapaNegocio.vbproj.GenerateResource.Cache
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\obj\Debug\CapaNegocio.dll
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\obj\Debug\CapaNegocio.xml
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\bin\Debug\CapaNegocio.xml
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\bin\Debug\CapaDatos.xml
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\bin\Debug\CapaEntidad.xml
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\obj\Debug\CapaNegocio.vbprojResolveAssemblyReference.cache
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\obj\Debug\CapaNegocio.Resources.resources
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\obj\Debug\CapaNegocio.vbproj.GenerateResource.Cache
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\obj\Debug\CapaNegocio.xml
+C:\Users\Sistemas\Desktop\Sistema\CapaNegocio\obj\Debug\CapaNegocio.pdb

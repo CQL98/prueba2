@@ -1,0 +1,24 @@
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaDatos\bin\Debug\CapaDatos.dll
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaDatos\bin\Debug\CapaDatos.pdb
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaDatos\bin\Debug\CapaDatos.xml
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaDatos\bin\Debug\CapaEntidad.dll
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaDatos\bin\Debug\CapaEntidad.pdb
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaDatos\bin\Debug\CapaEntidad.xml
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaDatos\obj\Debug\CapaDatos.vbprojResolveAssemblyReference.cache
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaDatos\obj\Debug\CapaDatos.Resources.resources
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateResource.Cache
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaDatos\obj\Debug\CapaDatos.dll
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaDatos\obj\Debug\CapaDatos.xml
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\Sistemas\Desktop\Sistema\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\Sistemas\Desktop\Sistema\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\Sistemas\Desktop\Sistema\CapaDatos\bin\Debug\CapaDatos.xml
+C:\Users\Sistemas\Desktop\Sistema\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\Sistemas\Desktop\Sistema\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\Sistemas\Desktop\Sistema\CapaDatos\bin\Debug\CapaEntidad.xml
+C:\Users\Sistemas\Desktop\Sistema\CapaDatos\obj\Debug\CapaDatos.vbprojResolveAssemblyReference.cache
+C:\Users\Sistemas\Desktop\Sistema\CapaDatos\obj\Debug\CapaDatos.Resources.resources
+C:\Users\Sistemas\Desktop\Sistema\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateResource.Cache
+C:\Users\Sistemas\Desktop\Sistema\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\Sistemas\Desktop\Sistema\CapaDatos\obj\Debug\CapaDatos.xml
+C:\Users\Sistemas\Desktop\Sistema\CapaDatos\obj\Debug\CapaDatos.pdb

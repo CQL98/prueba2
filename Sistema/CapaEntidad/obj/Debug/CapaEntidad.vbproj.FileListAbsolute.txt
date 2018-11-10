@@ -1,0 +1,18 @@
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaEntidad\bin\Debug\CapaEntidad.dll
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaEntidad\bin\Debug\CapaEntidad.pdb
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaEntidad\bin\Debug\CapaEntidad.xml
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaEntidad\obj\Debug\CapaEntidad.vbprojResolveAssemblyReference.cache
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaEntidad\obj\Debug\CapaEntidad.Resources.resources
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaEntidad\obj\Debug\CapaEntidad.vbproj.GenerateResource.Cache
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaEntidad\obj\Debug\CapaEntidad.dll
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaEntidad\obj\Debug\CapaEntidad.xml
+c:\Users\Sistemas\documents\visual studio 2015\Projects\Sistema\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Sistemas\Desktop\Sistema\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Sistemas\Desktop\Sistema\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Sistemas\Desktop\Sistema\CapaEntidad\bin\Debug\CapaEntidad.xml
+C:\Users\Sistemas\Desktop\Sistema\CapaEntidad\obj\Debug\CapaEntidad.vbprojResolveAssemblyReference.cache
+C:\Users\Sistemas\Desktop\Sistema\CapaEntidad\obj\Debug\CapaEntidad.Resources.resources
+C:\Users\Sistemas\Desktop\Sistema\CapaEntidad\obj\Debug\CapaEntidad.vbproj.GenerateResource.Cache
+C:\Users\Sistemas\Desktop\Sistema\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Sistemas\Desktop\Sistema\CapaEntidad\obj\Debug\CapaEntidad.xml
+C:\Users\Sistemas\Desktop\Sistema\CapaEntidad\obj\Debug\CapaEntidad.pdb
