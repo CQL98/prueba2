@@ -63,7 +63,7 @@
                         <asp:Button ID="btnBuscarProducto" runat="server" Text="BUSCAR" />
                     </div>
                     <div>
-                        <asp:GridView ID="GridView1" runat="server">
+                        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False">
                             <Columns>
                                 <asp:BoundField DataField="id_producto" HeaderText="ID" />
                                 <asp:BoundField DataField="nombre" HeaderText="NOMBRE" />
