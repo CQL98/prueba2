@@ -88,14 +88,14 @@ Public Class ClienteDA
         Return True
     End Function
 
-    Public Function Buscar_x_Codigo(ByVal codcliente As String) As DataSet
+    Public Function Buscar_x_Nombre(ByVal entrada As String) As DataSet
         Dim ds As New DataSet
         Try
             Dim cnn As New SqlConnection(Conexion.Instancia.cadenaconexion)
             cnn.Open()
-            Dim da As New SqlDataAdapter("pa_cliente_buscar_x_codigo", cnn)
+            Dim da As New SqlDataAdapter("pa_cliente_buscar_x_nombres", cnn)
             da.SelectCommand.CommandType = CommandType.StoredProcedure
-            da.SelectCommand.Parameters.Add("@codcliente", SqlDbType.Int).Value = codcliente
+            da.SelectCommand.Parameters.Add("@codcliente", SqlDbType.VarChar, 50).Value = entrada
             da.Fill(ds, "clientes")
             cnn.Close()
             cnn.Dispose()
