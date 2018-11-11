@@ -63,7 +63,11 @@
                         <asp:Button ID="btnBuscarProducto" runat="server" Text="BUSCAR" />
                     </div>
                     <div>
-                        <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+                        <asp:GridView ID="GridView1" runat="server">
+                            <Columns>
+                                <asp:BoundField DataField="HAckeado" HeaderText="HAckeado" />
+                            </Columns>
+                        </asp:GridView>
                     </div>
                 </section>
 
