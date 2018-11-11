@@ -658,9 +658,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Sistema.WebClientes._GridView1">
+<member name="F:Sistema.WebClientes._grdCliente">
 <summary>
-Control GridView1.
+Control grdCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Sistema.WebClientes._btnNuevo">
+<summary>
+Control btnNuevo.
 </summary>
 <remarks>
 Campo generado automáticamente.
