@@ -5,6 +5,8 @@ Public Class WbClientes
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+
         If Not IsPostBack Then
             mostrar()
         End If
@@ -12,15 +14,9 @@ Public Class WbClientes
 
     Sub mostrar()
         Dim oCliente As New ClienteCN
-        GrdClientes.DataSource = oCliente.ListarTodos
-        GrdClientes.DataBind()
+
+        'GrdClientes.DataSource = oCliente.ListarTodos
+        'GrdClientes.DataBind()
     End Sub
 
-    Protected Sub ImageButton1_Click(sender As Object, e As ImageClickEventArgs)
-
-    End Sub
-
-    Protected Sub btnBuscar_Click(sender As Object, e As EventArgs) Handles btnBuscar.Click
-
-    End Sub
 End Class
