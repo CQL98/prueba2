@@ -63,7 +63,15 @@
                         <asp:Button ID="btnBuscarProducto" runat="server" Text="BUSCAR" />
                     </div>
                     <div>
-                        <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+                        <asp:GridView ID="GridView1" runat="server">
+                            <Columns>
+                                <asp:BoundField DataField="id_producto" HeaderText="ID" />
+                                <asp:BoundField DataField="nombre" HeaderText="NOMBRE" />
+                                <asp:BoundField DataField="precio" HeaderText="PRECIO" />
+                                <asp:BoundField DataField="stock" HeaderText="STOCK" />
+                                <asp:BoundField DataField="id_categoria" HeaderText="CATEGORIA" />
+                            </Columns>
+                        </asp:GridView>
                     </div>
                 </section>
 
