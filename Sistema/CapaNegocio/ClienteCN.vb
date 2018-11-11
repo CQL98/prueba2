@@ -26,4 +26,7 @@ Public Class ClienteCN
         Return ClienteDA.Instancia.Buscar_x_Nombre(entrada)
     End Function
 
+    Public Function Buscar_x_codigo(ByVal codCliente As Integer) As DataSet
+        Return ClienteDA.Instancia.Buscar_x_Codigo(codCliente)
+    End Function
 End Class
