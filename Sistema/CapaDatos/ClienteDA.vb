@@ -39,7 +39,7 @@ Public Class ClienteDA
             Sqlcmd.Parameters.Add("@apellidos", SqlDbType.VarChar, 50).Value = Cliente.apellido
             Sqlcmd.Parameters.Add("@nombres", SqlDbType.VarChar, 50).Value = Cliente.nombre
             Sqlcmd.Parameters.Add("@direccion", SqlDbType.VarChar, 200).Value = Cliente.direccion
-            Sqlcmd.Parameters.Add("@correo", SqlDbType.Char, 50).Value = Cliente.email
+            Sqlcmd.Parameters.Add("@email", SqlDbType.Char, 50).Value = Cliente.email
             Sqlcmd.Parameters.Add("@fecha_nacimiento", SqlDbType.Date).Value = Cliente.fecha_nacimiento
             Sqlcmd.Parameters.Add("@telefono", SqlDbType.VarChar, 10).Value = Cliente.telefono
             Sqlcmd.ExecuteNonQuery()
@@ -61,7 +61,7 @@ Public Class ClienteDA
             Sqlcmd.Parameters.Add("@apellidos", SqlDbType.VarChar, 50).Value = Cliente.apellido
             Sqlcmd.Parameters.Add("@nombres", SqlDbType.VarChar, 50).Value = Cliente.nombre
             Sqlcmd.Parameters.Add("@direccion", SqlDbType.VarChar, 200).Value = Cliente.direccion
-            Sqlcmd.Parameters.Add("@correo", SqlDbType.Char, 50).Value = Cliente.email
+            Sqlcmd.Parameters.Add("@email", SqlDbType.Char, 50).Value = Cliente.email
             Sqlcmd.Parameters.Add("@fecha_nacimiento", SqlDbType.Date).Value = Cliente.fecha_nacimiento
             Sqlcmd.Parameters.Add("@telefono", SqlDbType.VarChar, 10).Value = Cliente.telefono
             Sqlcmd.ExecuteNonQuery()
