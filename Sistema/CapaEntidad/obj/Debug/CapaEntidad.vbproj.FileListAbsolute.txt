@@ -16,3 +16,13 @@ C:\Users\Sistemas\Desktop\Sistema\CapaEntidad\obj\Debug\CapaEntidad.vbproj.Gener
 C:\Users\Sistemas\Desktop\Sistema\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\Sistemas\Desktop\Sistema\CapaEntidad\obj\Debug\CapaEntidad.xml
 C:\Users\Sistemas\Desktop\Sistema\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaEntidad\bin\Debug\CapaEntidad.xml
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaEntidad\obj\Debug\CapaEntidad.vbprojAssemblyReference.cache
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaEntidad\obj\Debug\CapaEntidad.Resources.resources
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaEntidad\obj\Debug\CapaEntidad.vbproj.GenerateResource.cache
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaEntidad\obj\Debug\CapaEntidad.vbproj.CoreCompileInputs.cache
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaEntidad\obj\Debug\CapaEntidad.xml
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaEntidad\obj\Debug\CapaEntidad.pdb

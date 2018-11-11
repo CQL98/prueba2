@@ -22,3 +22,17 @@ C:\Users\Sistemas\Desktop\Sistema\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateR
 C:\Users\Sistemas\Desktop\Sistema\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\Sistemas\Desktop\Sistema\CapaDatos\obj\Debug\CapaDatos.xml
 C:\Users\Sistemas\Desktop\Sistema\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\bin\Debug\CapaDatos.xml
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\bin\Debug\CapaEntidad.xml
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\obj\Debug\CapaDatos.vbprojAssemblyReference.cache
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\obj\Debug\CapaDatos.Resources.resources
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\obj\Debug\CapaDatos.vbproj.GenerateResource.cache
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\obj\Debug\CapaDatos.vbproj.CoreCompileInputs.cache
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\obj\Debug\CapaDatos.vbproj.CopyComplete
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\obj\Debug\CapaDatos.xml
+C:\Users\LocalHost\Documents\GitHub\prueba2\Sistema\CapaDatos\obj\Debug\CapaDatos.pdb
