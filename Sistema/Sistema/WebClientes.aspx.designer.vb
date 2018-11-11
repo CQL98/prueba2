@@ -41,13 +41,13 @@ Partial Public Class WebClientes
     Protected WithEvents btnBuscar As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''Control GridView1.
+    '''Control GrdClientes.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents GrdClientes As Global.System.Web.UI.WebControls.GridView
     
     '''<summary>
     '''Control btnNuevo.

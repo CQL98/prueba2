@@ -1,4 +1,7 @@
-﻿Public Class WebClientes
+﻿Imports CapaEntidad
+Imports CapaNegocio
+
+Public Class WbClientes
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -8,9 +11,9 @@
     End Sub
 
     Sub mostrar()
-        Dim oProducto As New ProductosCN
-        grdProductos.DataSource = oProducto.ListarTodosProductos
-        grdProductos.DataBind()
+        Dim oCliente As New ClienteCN
+        GrdClientes.DataSource = oCliente.ListarTodos
+        GrdClientes.DataBind()
     End Sub
 
     Protected Sub ImageButton1_Click(sender As Object, e As ImageClickEventArgs)

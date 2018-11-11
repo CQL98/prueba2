@@ -10,6 +10,7 @@ Public Class ClienteDA
             Return _instancia
         End Get
     End Property
+
     Public Function ListarTodos() As List(Of Cliente)
         Dim Coleccion As New List(Of Cliente)
         Try

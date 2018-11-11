@@ -33,7 +33,7 @@
         <tr>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style2">
-                <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal">
+                <asp:GridView ID="GrdClientes" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal">
                     <Columns>
                         <asp:TemplateField HeaderText="Acciones">
                             <ItemTemplate>
