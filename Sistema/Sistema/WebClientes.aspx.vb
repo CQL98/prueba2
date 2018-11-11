@@ -5,4 +5,7 @@
 
     End Sub
 
+    Protected Sub ImageButton1_Click(sender As Object, e As ImageClickEventArgs)
+
+    End Sub
 End Class

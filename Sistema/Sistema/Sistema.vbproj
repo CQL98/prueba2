@@ -541,6 +541,7 @@
     <Folder Include="build\" />
     <Folder Include="dist\" />
     <Folder Include="documentation\" />
+    <Folder Include="imagenes\" />
     <Folder Include="pages\" />
     <Folder Include="plugins\" />
   </ItemGroup>
