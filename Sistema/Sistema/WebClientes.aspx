@@ -51,13 +51,13 @@
                 <Columns>
                     <asp:TemplateField HeaderText="Acciones">
                         <ItemTemplate>
-                            <asp:ImageButton ID="ImageButton1" runat="server" CommandArgument='<%# Eval("codcliente") %>' Height="74px" ImageUrl="~/imagenes/editar.png"  Width="58px" />
-                            <asp:ImageButton ID="ImageButton2" runat="server" CommandArgument='<%# Eval("codcliente") %>' Height="53px" ImageUrl="~/imagenes/ELIMINAR.png" Width="56px" />
+                            <asp:ImageButton ID="ImageButton1" runat="server" CommandArgument='<%# Eval("id_cliente") %>' Height="74px" ImageUrl="~/imagenes/editar.png"  Width="58px" CommandName="Eliminar"  />
+                            <asp:ImageButton ID="ImageButton2" runat="server" CommandArgument='<%# Eval("id_cliente") %>' Height="53px" ImageUrl="~/imagenes/ELIMINAR.png" Width="56px" CommandName="Editar" />
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:BoundField DataField="codcliente" HeaderText="Codigo" />
-                    <asp:BoundField DataField="nombres" HeaderText="Nombre" />
-                    <asp:BoundField DataField="apellidos" HeaderText="Apellido" />
+                    <asp:BoundField DataField="id_cliente" HeaderText="Codigo" />
+                    <asp:BoundField DataField="nombre" HeaderText="Nombre" />
+                    <asp:BoundField DataField="apellido" HeaderText="Apellido" />
                     <asp:BoundField DataField="direccion" HeaderText="Direccion" />
                     <asp:BoundField DataField="telefono" HeaderText="Telefono" />
                     <asp:BoundField DataField="email" HeaderText="Email" />

@@ -22,7 +22,7 @@ Public Class ClienteCN
     Public Function Eliminar(ByVal codcliente As String) As Boolean
         Return ClienteDA.Instancia.Eliminar(codcliente)
     End Function
-    Public Function Buscar_x_codigo(ByVal entrada As String) As DataSet
+    Public Function Buscar_x_nombre(ByVal entrada As String) As DataSet
         Return ClienteDA.Instancia.Buscar_x_Nombre(entrada)
     End Function
 

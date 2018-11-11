@@ -36,8 +36,8 @@ Public Class ClienteDA
             cnn.Open()
             Dim Sqlcmd As New SqlCommand("pa_cliente_agregar", cnn)
             Sqlcmd.CommandType = CommandType.StoredProcedure
-            Sqlcmd.Parameters.Add("@apellidos", SqlDbType.VarChar, 50).Value = Cliente.apellidos
-            Sqlcmd.Parameters.Add("@nombres", SqlDbType.VarChar, 50).Value = Cliente.nombres
+            Sqlcmd.Parameters.Add("@apellidos", SqlDbType.VarChar, 50).Value = Cliente.apellido
+            Sqlcmd.Parameters.Add("@nombres", SqlDbType.VarChar, 50).Value = Cliente.nombre
             Sqlcmd.Parameters.Add("@direccion", SqlDbType.VarChar, 200).Value = Cliente.direccion
             Sqlcmd.Parameters.Add("@correo", SqlDbType.Char, 50).Value = Cliente.email
             Sqlcmd.Parameters.Add("@fecha_nacimiento", SqlDbType.Date).Value = Cliente.fecha_nacimiento
@@ -57,9 +57,9 @@ Public Class ClienteDA
             cnn.Open()
             Dim Sqlcmd As New SqlCommand("pa_cliente_editar", cnn)
             Sqlcmd.CommandType = CommandType.StoredProcedure
-            Sqlcmd.Parameters.Add("@codcliente", SqlDbType.Int).Value = Cliente.codcliente
-            Sqlcmd.Parameters.Add("@apellidos", SqlDbType.VarChar, 50).Value = Cliente.apellidos
-            Sqlcmd.Parameters.Add("@nombres", SqlDbType.VarChar, 50).Value = Cliente.nombres
+            Sqlcmd.Parameters.Add("@codcliente", SqlDbType.Int).Value = Cliente.id_cliente
+            Sqlcmd.Parameters.Add("@apellidos", SqlDbType.VarChar, 50).Value = Cliente.apellido
+            Sqlcmd.Parameters.Add("@nombres", SqlDbType.VarChar, 50).Value = Cliente.nombre
             Sqlcmd.Parameters.Add("@direccion", SqlDbType.VarChar, 200).Value = Cliente.direccion
             Sqlcmd.Parameters.Add("@correo", SqlDbType.Char, 50).Value = Cliente.email
             Sqlcmd.Parameters.Add("@fecha_nacimiento", SqlDbType.Date).Value = Cliente.fecha_nacimiento
@@ -96,7 +96,7 @@ Public Class ClienteDA
             cnn.Open()
             Dim da As New SqlDataAdapter("pa_cliente_buscar_x_nombres", cnn)
             da.SelectCommand.CommandType = CommandType.StoredProcedure
-            da.SelectCommand.Parameters.Add("@codcliente", SqlDbType.VarChar, 50).Value = entrada
+            da.SelectCommand.Parameters.Add("@entrada", SqlDbType.VarChar, 50).Value = entrada
             da.Fill(ds, "clientes")
             cnn.Close()
             cnn.Dispose()
