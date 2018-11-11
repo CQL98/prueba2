@@ -25,5 +25,12 @@ Public Class WebCliente
         '                  CType(mpContentPlaceHolder.FindControl("calendar"), Calendar).SelectedDate,
         '                  CType(mpContentPlaceHolder.FindControl("txtTelefono"), TextBox).Text))
         oCliente.Insertar(New Cliente(0, txtApellido.Text, txtNombre.Text, txtDireccion.Text, txtEmail.Text, calendar.SelectedDate, txtTelefono.Text))
+        txtApellido.Text = ""
+        txtNombre.Text = ""
+        txtDireccion.Text = ""
+        txtEmail.Text = ""
+        txtTelefono.Text = ""
+
+
     End Sub
 End Class

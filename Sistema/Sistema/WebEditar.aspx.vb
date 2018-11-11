@@ -1,4 +1,4 @@
-﻿
+﻿Imports System.Data
 Imports CapaEntidad
 Imports CapaNegocio
 Public Class WebEditar

@@ -65,4 +65,16 @@ select distinct [id_cliente]
 	  ,[email]
       ,[fecha_nacimiento]
       ,[telefono]
-from Cliente where  apellido = '%'+@entrada+'%' or nombre = '%'+@entrada+'%'
+from Cliente where  (apellido like '%'+@entrada+'%') or (nombre like '%'+@entrada+'%')
+go
+create procedure [dbo].[pa_cliente_buscar_x_codigo]
+@codcliente int
+as
+select distinct [id_cliente]
+	,[apellido]
+      ,[nombre]
+      ,[direccion]
+	  ,[email]
+      ,[fecha_nacimiento]
+      ,[telefono]
+from Cliente where id_cliente=@codcliente
