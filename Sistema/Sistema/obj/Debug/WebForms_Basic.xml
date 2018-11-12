@@ -784,6 +784,78 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:Sistema.WebProductos._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sistema.WebProductos._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sistema.WebProductos._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sistema.WebProductos._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sistema.WebProductos._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sistema.WebProductos._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sistema.WebProductos._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:Sistema.WebProductos._DropDownList1">
+<summary>
+DropDownList1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:Sistema.WebProductos._lblBuscarProducto">
 <summary>
 lblBuscarProducto control.

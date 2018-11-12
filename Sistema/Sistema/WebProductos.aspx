@@ -53,6 +53,8 @@
                     </div>
                 </section>
 
+                 
+
                 <section>
                     <div>
                         LISTADO DE PRODUCTOS
@@ -70,11 +72,39 @@
                                 <asp:BoundField DataField="precio" HeaderText="PRECIO" />
                                 <asp:BoundField DataField="stock" HeaderText="STOCK" />
                                 <asp:BoundField DataField="id_categoria" HeaderText="CATEGORIA" />
+                                <asp:TemplateField HeaderText="ACCIONES">
+                                    <ItemTemplate>
+                                        <asp:ImageButton ID="ImageButton1" runat="server" CommandArgument='<%# Eval("id_producto") %>' Height="74px" ImageUrl="~/imagenes/editar.png" Width="71px" />
+                                        <asp:ImageButton ID="ImageButton2" runat="server" CommandArgument='<%# Eval("id_producto") %>' Height="70px" ImageUrl="~/imagenes/ELIMINAR.png" Width="72px" />
+                                    </ItemTemplate>
+                                </asp:TemplateField>
                             </Columns>
                         </asp:GridView>
                     </div>
                 </section>
 
+
+                <section >
+                    <div>
+                        MODIFICAR PRODUCTO
+                    </div>
+                    <div>   
+                        <asp:Label ID="Label1" runat="server" Text="Label">NOMBRE: </asp:Label>
+                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    </div>
+                    <div>   
+                        <asp:Label ID="Label2" runat="server" Text="Label">PRECIO: </asp:Label>
+                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    </div>
+                    <div>   
+                        <asp:Label ID="Label3" runat="server" Text="Label">STOCK: </asp:Label>
+                        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                    </div>
+                    <div>   
+                         <asp:Label ID="Label4" runat="server" Text="Label">CATEGORIA: </asp:Label>
+                        <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
+                    </div>
+                </section>
 
             </div>
             <!-- /.box-body -->

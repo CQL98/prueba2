@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -240,6 +241,8 @@
     <Content Include="bower.json" />
     <Content Include="changelog.md" />
     <Content Include="composer.json" />
+    <Content Include="imagenes\editar.png" />
+    <Content Include="imagenes\ELIMINAR.png" />
     <Content Include="LICENSE" />
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
@@ -557,7 +560,6 @@
     <Folder Include="build\" />
     <Folder Include="dist\" />
     <Folder Include="documentation\" />
-    <Folder Include="imagenes\" />
     <Folder Include="pages\" />
     <Folder Include="plugins\" />
   </ItemGroup>
