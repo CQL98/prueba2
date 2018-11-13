@@ -131,6 +131,24 @@ Partial Public Class WebProductos
     Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
     
     '''<summary>
+    '''Label5 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''Label6 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Label6 As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
     '''Label1 control.
     '''</summary>
     '''<remarks>
@@ -201,4 +219,13 @@ Partial Public Class WebProductos
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
+    
+    '''<summary>
+    '''Button1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 End Class

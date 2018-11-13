@@ -20,4 +20,13 @@ Public Class ProductoCN
     Public Function Eliminar(ByVal codcliente As String) As Boolean
         Return ProductoDA.Instancia.Eliminar(codcliente)
     End Function
+    Public Function Buscar_x_codigo(ByVal codProducto As Integer) As DataSet
+        Return ProductoDA.Instancia.Buscar_x_Codigo(codProducto)
+    End Function
+    Public Function Editar(ByVal producto As Producto) As Boolean
+        Return ProductoDA.Instancia.Editar(producto)
+    End Function
+    Public Function Buscar_x_nombre(ByVal entrada As String) As DataSet
+        Return ProductoDA.Instancia.Buscar_x_Nombre(entrada)
+    End Function
 End Class

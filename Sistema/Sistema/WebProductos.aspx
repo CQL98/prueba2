@@ -92,6 +92,10 @@
                         MODIFICAR PRODUCTO
                         </div>
                     <div>   
+                        <asp:Label ID="Label5" runat="server" Text="Label">Codigo Producto: </asp:Label>
+                        <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+                    </div>
+                    <div>   
                         <asp:Label ID="Label1" runat="server" Text="Label">NOMBRE: </asp:Label>
                         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                     </div>
@@ -106,6 +110,9 @@
                     <div>   
                          <asp:Label ID="Label4" runat="server" Text="Label">CATEGORIA: </asp:Label>
                         <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
+                    </div>
+                    <div>
+                        <asp:Button ID="Button1" runat="server" Text="Editar Producto" />
                     </div>
                 </section>
 

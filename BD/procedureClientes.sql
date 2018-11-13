@@ -46,23 +46,19 @@ go
 
 
 
-create procedure [dbo].[pa_cliente_editar]
-@codcliente int,
-@apellidos varchar(50),
-@nombres varchar(50),
-@direccion varchar(200),
-@email varchar(50),
-@fecha_nacimiento date,
-@telefono varchar(10)
+create procedure [dbo].[pa_producto_editar]
+@codProducto int,
+@nombre varchar(50),
+@precio numeric(18,2),
+@stock int,
+@id_categoria int
 as
-update CLIENTE 
-set apellido=@apellidos,
-nombre=@nombres,
-direccion=@direccion,
-email=@email,
-fecha_nacimiento=@fecha_nacimiento,
-telefono=@telefono
-where id_cliente=@codcliente 
+update PRODUCTO
+set nombre= @nombre,
+precio= @precio ,
+stock=@stock ,
+id_categoria=@id_categoria 
+where id_producto=@codProducto 
 go
 
 create procedure [dbo].[pa_producto_eliminar]
@@ -73,26 +69,29 @@ DELETE FROM [dbo].[PRODUCTO]
 go
 
 
-create procedure [dbo].[pa_cliente_buscar_x_nombres]
+create procedure [dbo].[pa_producto_buscar_x_nombres]
 @entrada varchar(50)
 as
-select distinct [id_cliente]
-	,[apellido]
+select distinct [id_producto]
+
       ,[nombre]
-      ,[direccion]
-	  ,[email]
-      ,[fecha_nacimiento]
-      ,[telefono]
-from Cliente where  (apellido like '%'+@entrada+'%') or (nombre like '%'+@entrada+'%')
+      ,[precio]
+	  ,[stock]
+      ,[id_categoria]
+      
+from PRODUCTO where nombre like '%'+@entrada+'%'
+
 go
-create procedure [dbo].[pa_cliente_buscar_x_codigo]
+
+
+create procedure [dbo].[pa_producto_buscar_x_codigo]
 @codcliente int
 as
-select distinct [id_cliente]
-	,[apellido]
+select distinct [id_producto]
+
       ,[nombre]
-      ,[direccion]
-	  ,[email]
-      ,[fecha_nacimiento]
-      ,[telefono]
-from Cliente where id_cliente=@codcliente
+      ,[precio]
+	  ,[stock]
+      ,[id_categoria]
+      
+from PRODUCTO where id_producto=@codcliente
