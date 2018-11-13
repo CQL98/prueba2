@@ -17,4 +17,7 @@ Public Class ProductoCN
     Public Function Insertar(ByVal Producto As Producto) As Boolean
         Return ProductoDA.Instancia.Agregar(Producto)
     End Function
+    Public Function Eliminar(ByVal codcliente As String) As Boolean
+        Return ProductoDA.Instancia.Eliminar(codcliente)
+    End Function
 End Class

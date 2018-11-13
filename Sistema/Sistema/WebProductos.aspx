@@ -77,8 +77,8 @@
                                 <asp:BoundField DataField="id_categoria" HeaderText="CATEGORIA" />
                                 <asp:TemplateField HeaderText="ACCIONES">
                                     <ItemTemplate>
-                                        <asp:ImageButton ID="ImageButton1" runat="server" CommandArgument='<%# Eval("id_producto") %>' Height="74px" ImageUrl="~/imagenes/editar.png" Width="71px" />
-                                        <asp:ImageButton ID="ImageButton2" runat="server" CommandArgument='<%# Eval("id_producto") %>' Height="70px" ImageUrl="~/imagenes/ELIMINAR.png" Width="72px" />
+                                        <asp:ImageButton ID="editar" runat="server" CommandArgument='<%# Eval("id_producto") %>' Height="74px" ImageUrl="~/imagenes/editar.png" Width="71px" CommandName="Editar"/>
+                                        <asp:ImageButton ID="eliminar" runat="server" CommandArgument='<%# Eval("id_producto") %>' Height="70px" ImageUrl="~/imagenes/ELIMINAR.png" Width="72px" CommandName="Eliminar" />
                                     </ItemTemplate>
                                 </asp:TemplateField>
                             </Columns>
@@ -90,7 +90,7 @@
                 <section >
                     <div>
                         MODIFICAR PRODUCTO
-                    </div>
+                        </div>
                     <div>   
                         <asp:Label ID="Label1" runat="server" Text="Label">NOMBRE: </asp:Label>
                         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>

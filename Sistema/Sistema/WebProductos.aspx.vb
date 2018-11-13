@@ -40,4 +40,21 @@ Public Class WebProductos
     Protected Sub btnBuscarProducto_Click(sender As Object, e As EventArgs) Handles btnBuscarProducto.Click
 
     End Sub
+
+    Protected Sub GridView1_RowCommand(sender As Object, e As GridViewCommandEventArgs) Handles GridView1.RowCommand
+
+        If e.CommandName = "Eliminar" Then
+            Dim codCliente As String
+            codCliente = e.CommandArgument
+            Dim oProducto As New ProductoCN
+            oProducto.Eliminar(codCliente)
+            Response.Redirect("WebProductos.aspx")
+        End If
+        If e.CommandName = "Editar" Then
+            Dim codCliente As String
+            codCliente = e.CommandArgument
+            Response.Redirect("WebEditar.aspx?codigo=" & codCliente & "")
+        End If
+
+    End Sub
 End Class

@@ -65,4 +65,7 @@ Public Class WebClientes
         End If
     End Sub
 
+    Protected Sub grdCliente_SelectedIndexChanged(sender As Object, e As EventArgs) Handles grdCliente.SelectedIndexChanged
+
+    End Sub
 End Class

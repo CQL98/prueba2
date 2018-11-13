@@ -47,4 +47,20 @@ Public Class ProductoDA
         End Try
         Return True
     End Function
+
+    Public Function Eliminar(ByVal codcliente As String) As Boolean
+        Try
+            Dim cnn As New SqlConnection(Conexion.Instancia.cadenaconexion)
+            cnn.Open()
+            Dim Sqlcmd As New SqlCommand("pa_producto_eliminar", cnn)
+            Sqlcmd.CommandType = CommandType.StoredProcedure
+            Sqlcmd.Parameters.Add("@id_producto", SqlDbType.Int).Value = codcliente
+            Sqlcmd.ExecuteNonQuery()
+            cnn.Close()
+            cnn.Dispose()
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+        Return True
+    End Function
 End Class

@@ -65,12 +65,14 @@ telefono=@telefono
 where id_cliente=@codcliente 
 go
 
-create procedure [dbo].[pa_cliente_eliminar]
-@codcliente int
+create procedure [dbo].[pa_producto_eliminar]
+@id_producto int
 as
-DELETE FROM [dbo].[CLIENTE]
-      WHERE id_cliente=@codcliente
+DELETE FROM [dbo].[PRODUCTO]
+      WHERE id_producto=@id_producto
 go
+
+
 create procedure [dbo].[pa_cliente_buscar_x_nombres]
 @entrada varchar(50)
 as
