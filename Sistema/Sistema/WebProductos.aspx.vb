@@ -5,11 +5,13 @@ Public Class WebProductos
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
+
+
         If Not IsPostBack Then
             Dim oProducto As New ProductoCN
             GridView1.DataSource = oProducto.ListarTodos
             GridView1.DataBind()
-
 
             Dim oCategoria As New CategoriaCN
             ddlCategoriaProducto.DataSource = oCategoria.ListarTodas
@@ -17,7 +19,6 @@ Public Class WebProductos
             ddlCategoriaProducto.DataTextField = "nombre"
             ddlCategoriaProducto.DataValueField = "id_categoria"
             ddlCategoriaProducto.DataBind()
-
         End If
     End Sub
 
@@ -27,6 +28,8 @@ Public Class WebProductos
         txtbNombreProducto.Text = ""
         txtbPrecioProducto.Text = ""
         txtbStockProducto.Text = ""
+        Response.Redirect("WebProductos.aspx")
+
     End Sub
 
     Protected Sub ddlCategoriaProducto_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlCategoriaProducto.SelectedIndexChanged
