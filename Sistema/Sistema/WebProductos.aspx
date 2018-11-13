@@ -51,6 +51,9 @@
                          <asp:Label ID="lblCategoriaProducto" runat="server" Text="Label">CATEGORIA: </asp:Label>
                         <asp:DropDownList ID="ddlCategoriaProducto" runat="server"></asp:DropDownList>
                     </div>
+                    <div>   
+                        <asp:Button ID="btnCrearNuevo" runat="server" Text="Nuevo Producto" />
+                    </div>
                 </section>
 
                  

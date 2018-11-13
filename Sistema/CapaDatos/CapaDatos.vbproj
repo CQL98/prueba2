@@ -63,6 +63,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoriaDA.vb" />
     <Compile Include="Class1.vb" />
     <Compile Include="ClienteDA.vb" />
     <Compile Include="Conexion.vb" />
@@ -81,6 +82,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ProductoDA.vb" />
     <Compile Include="UsuarioDA.vb" />
   </ItemGroup>
   <ItemGroup>

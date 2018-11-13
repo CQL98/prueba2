@@ -86,6 +86,15 @@ Partial Public Class WebProductos
     Protected WithEvents ddlCategoriaProducto As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
+    '''btnCrearNuevo control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents btnCrearNuevo As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
     '''lblBuscarProducto control.
     '''</summary>
     '''<remarks>

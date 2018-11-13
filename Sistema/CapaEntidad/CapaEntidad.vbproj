@@ -63,6 +63,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Categoria.vb" />
     <Compile Include="Class1.vb" />
     <Compile Include="Cliente.vb" />
     <Compile Include="Producto.vb" />

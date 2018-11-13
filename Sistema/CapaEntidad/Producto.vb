@@ -1,11 +1,11 @@
 ﻿Public Class Producto
     Private _id_producto As Integer
     Private _nombre As String
-    Private _precio As Double
+    Private _precio As Decimal
     Private _stock As Integer
     Private _id_categoria As Integer
 
-    Public Sub New(id_producto As Integer, nombre As String, precio As Double, stock As Integer, id_categoria As Integer)
+    Public Sub New(id_producto As Integer, nombre As String, precio As Decimal, stock As Integer, id_categoria As Integer)
         _id_producto = id_producto
         _nombre = nombre
         _precio = precio
@@ -31,11 +31,11 @@
         End Set
     End Property
 
-    Public Property Precio As Double
+    Public Property Precio As Decimal
         Get
             Return _precio
         End Get
-        Set(value As Double)
+        Set(value As Decimal)
             _precio = value
         End Set
     End Property

@@ -1,35 +1,51 @@
 use Plantilla
 go
-create procedure [dbo].[pa_cliente_listarTodos]
+create procedure [dbo].[pa_producto_listarTodos]
 as
-select [id_cliente]
-	,[apellido]
-      ,[nombre]
-      ,[direccion]
-	  ,[email]
-      ,[fecha_nacimiento]
-      ,[telefono]
-      
-from CLIENTE
-go
-create procedure [dbo].[pa_cliente_agregar]
+select [id_producto]
 
-@apellidos varchar(50),
-@nombres varchar(50),
-@direccion varchar(200),
-@email varchar(50),
-@fecha_nacimiento date,
-@telefono varchar(10)
+      ,[nombre]
+      ,[precio]
+	  ,[stock]
+      ,[id_categoria]
+      
+from PRODUCTO
+go
+alter procedure [dbo].[pa_producto_agregar]
+
+@nombre varchar(50),
+@precio numeric(18,2),
+@stock int,
+@id_categoria int
 as
-insert into cliente ([nombre]
-           ,[apellido]
-           ,[direccion]
-           ,[fecha_nacimiento]
-           ,[telefono]
-           ,[email])
+insert into producto ([nombre]
+           ,[precio]
+           ,[stock]
+           ,[id_categoria])
 values
-(@nombres,@apellidos,@direccion,@fecha_nacimiento,@telefono,@email)
+(@nombre ,@precio ,@stock,@id_categoria )
+
+
 GO
+create procedure [dbo].[pa_categoria_listarTodos]
+as
+select 
+id_categoria, nombre,descripcion
+from CATEGORIA
+
+
+
+go
+
+
+go
+
+
+
+
+
+
+
 create procedure [dbo].[pa_cliente_editar]
 @codcliente int,
 @apellidos varchar(50),
