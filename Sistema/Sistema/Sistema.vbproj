@@ -244,6 +244,7 @@
     <Content Include="imagenes\editar.png" />
     <Content Include="imagenes\ELIMINAR.png" />
     <Content Include="LICENSE" />
+    <Content Include="MyModal.aspx" />
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
@@ -459,6 +460,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MyModal.aspx.designer.vb">
+      <DependentUpon>MyModal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyModal.aspx.vb">
+      <DependentUpon>MyModal.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="PaginaMaestra\Plantilla.Master.designer.vb">
       <DependentUpon>Plantilla.Master</DependentUpon>

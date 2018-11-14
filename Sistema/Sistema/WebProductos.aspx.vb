@@ -9,9 +9,7 @@ Public Class WebProductos
 
 
         If Not IsPostBack Then
-            Dim oProducto As New ProductoCN
-            GridView1.DataSource = oProducto.ListarTodos
-            GridView1.DataBind()
+            mostrar()
 
             Dim oCategoria As New CategoriaCN
             ddlCategoriaProducto.DataSource = oCategoria.ListarTodas
@@ -80,5 +78,19 @@ Public Class WebProductos
         Dim oProducto As New ProductoCN
         oProducto.Editar(New Producto(Label6.Text, TextBox1.Text, TextBox2.Text, TextBox3.Text, DropDownList1.SelectedValue))
         Response.Redirect("WebProductos.aspx")
+    End Sub
+
+    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        ScriptManager.RegisterStartupScript(Page, Page.GetType(), "myModal", "$('#myModal').modal();", True)
+        Session("edicion") = False
+        mostrar()
+
+    End Sub
+
+    Public Sub mostrar()
+
+        Dim oProducto As New ProductoCN
+        GridView1.DataSource = oProducto.ListarTodos
+        GridView1.DataBind()
     End Sub
 End Class

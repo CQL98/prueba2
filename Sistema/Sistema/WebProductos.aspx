@@ -28,6 +28,7 @@
                   <i class="fa fa-minus"></i></button>
                 <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
                   <i class="fa fa-times"></i></button>
+                  <asp:Button ID="Button2" runat="server" Text="Button" />
               </div>
             </div>
             <div class="box-body">
@@ -123,8 +124,56 @@
             </div>
             <!-- /.box-footer-->
           </div>
-          <!-- /.box -->
+          <!-- /.box GridView1 -->
+
+
 
         </section>
+
+<div id="myModal" class="modal fade"  tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog">
+    
+            <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                       <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <asp:Label ID="Label7" runat="server" Text="Codigo"></asp:Label>
+                                        <asp:TextBox ID="Txtcodigo" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label ID="Label8" runat="server" Text="Descripcion"></asp:Label>
+                                        <asp:TextBox ID="TxtDescripcion" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label ID="Label9" runat="server" Text="Precio"></asp:Label>
+                                        <asp:TextBox ID="TxtPrecio" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label ID="Label10" runat="server" Text="Cantidad"></asp:Label>
+                                        <asp:TextBox ID="Txtcantidad" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                </div>
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>        
+                    <asp:Button ID="BtnGuardar" cssClass="btn btn-primary" runat="server" Text="Guardar" />
+                  </div>
+            </div>
+      
+  </div>
+</div>
+<!-- jQuery 3 -->
+<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+
+<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        
+
 
 </asp:Content>
