@@ -108,5 +108,54 @@
 
 
 </table>
+
+    <div id="myModalx" class="modal fade"  tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false">
+  <div class="modal-dialog">
+    
+            <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;span></button>
+                    <h4 class="modal-title" id="myModalLabel">Nuevo Cliente</h4>
+                  </div>
+                  <div class="modal-body">
+                       <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <asp:Label ID="Label7" runat="server" Text="Nombe"></asp:Label>
+                                        <asp:TextBox ID="txtNombre" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label ID="Label8" runat="server" Text="Apellido"></asp:Label>
+                                        <asp:TextBox ID="txtApellido" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label ID="Label9" runat="server" Text="FechaNacimiento"></asp:Label>
+                                         <input type="date" name="fecha" value="" />
+                                        <asp:Calendar ID="calendar" runat="server"></asp:Calendar>
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label ID="Label10" runat="server" Text="Direccion"></asp:Label>
+                                         <asp:TextBox ID="txtDireccion" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label ID="Label1" runat="server" Text="Email"></asp:Label>
+                                         <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label ID="Label3" runat="server" Text="Telefono"></asp:Label>
+                                       
+                                          <asp:TextBox ID="txtTelefono" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                </div>
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>        
+                    <asp:Button ID="BtnGuardar" cssClass="btn btn-primary" runat="server" Text="Guardar" />
+                  </div>
+            </div>
+      
+  </div>
+</div>
 &nbsp;
 </asp:Content>

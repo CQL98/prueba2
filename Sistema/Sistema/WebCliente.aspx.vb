@@ -33,4 +33,7 @@ Public Class WebCliente
 
 
     End Sub
+    Protected Sub calendar_VisibleMonthChanged(sender As Object, e As MonthChangedEventArgs) Handles calendar.VisibleMonthChanged
+
+    End Sub
 End Class

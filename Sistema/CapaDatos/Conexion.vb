@@ -9,7 +9,7 @@
         End Get
     End Property
     Public Function cadenaconexion() As String
-        Return "Data Source=ANDROIDC08-S4D4\SQLEXPRESS;Initial Catalog=PLANTILLA;Integrated Security=True"
+        Return "Data Source=QUISPE-PC\SQLEXPRESS;Initial Catalog=PLANTILLA;Integrated Security=True"
     End Function
 
 End Class
