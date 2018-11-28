@@ -21,13 +21,10 @@ Public Class WebProductos
     End Sub
 
     Protected Sub btnCrearNuevo_Click(sender As Object, e As EventArgs) Handles btnCrearNuevo.Click
-        Dim oProducto As New ProductoCN
-        oProducto.Insertar(New Producto(0, txtbNombreProducto.Text, txtbPrecioProducto.Text, txtbStockProducto.Text, ddlCategoriaProducto.SelectedValue))
-        txtbNombreProducto.Text = ""
-        txtbPrecioProducto.Text = ""
-        txtbStockProducto.Text = ""
-        Response.Redirect("WebProductos.aspx")
 
+        ScriptManager.RegisterStartupScript(Page, Page.GetType(), "myModal", "$('#myModal').modal();", True)
+        Session("edicion") = False
+        mostrar()
     End Sub
 
     Protected Sub ddlCategoriaProducto_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlCategoriaProducto.SelectedIndexChanged
@@ -80,17 +77,21 @@ Public Class WebProductos
         Response.Redirect("WebProductos.aspx")
     End Sub
 
-    Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        ScriptManager.RegisterStartupScript(Page, Page.GetType(), "myModal", "$('#myModal').modal();", True)
-        Session("edicion") = False
-        mostrar()
 
-    End Sub
 
     Public Sub mostrar()
 
         Dim oProducto As New ProductoCN
         GridView1.DataSource = oProducto.ListarTodos
         GridView1.DataBind()
+    End Sub
+
+    Protected Sub BtnGuardar_Click(sender As Object, e As EventArgs) Handles BtnGuardar.Click
+        Dim oProducto As New ProductoCN
+        oProducto.Insertar(New Producto(0, txtbNombreProducto.Text, txtbPrecioProducto.Text, txtbStockProducto.Text, ddlCategoriaProducto.SelectedValue))
+        txtbNombreProducto.Text = ""
+        txtbPrecioProducto.Text = ""
+        txtbStockProducto.Text = ""
+        Response.Redirect("WebProductos.aspx")
     End Sub
 End Class

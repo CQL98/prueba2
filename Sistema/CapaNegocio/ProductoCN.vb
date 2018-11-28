@@ -29,4 +29,7 @@ Public Class ProductoCN
     Public Function Buscar_x_nombre(ByVal entrada As String) As DataSet
         Return ProductoDA.Instancia.Buscar_x_Nombre(entrada)
     End Function
+    Public Function ListarCombo() As List(Of Producto)
+        Return ProductoDA.Instancia.ListarTodas
+    End Function
 End Class

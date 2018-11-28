@@ -117,4 +117,24 @@ Public Class ProductoDA
         End Try
         Return ds
     End Function
+
+    Public Function ListarTodas() As List(Of Producto)
+        Dim Coleccion As New List(Of Producto)
+        Try
+            Dim cnn As New SqlConnection(Conexion.Instancia.cadenaconexion)
+            cnn.Open()
+            Dim sqlcmd As New SqlCommand("pa_producto_listarTodosCombo", cnn)
+            sqlcmd.CommandType = CommandType.StoredProcedure
+            Dim PaTable As SqlDataReader = sqlcmd.ExecuteReader
+            While PaTable.Read
+                Coleccion.Add(New Producto(PaTable.Item(0), PaTable.Item(1), PaTable.Item(2), PaTable.Item(3), PaTable.Item(4)))
+            End While
+            cnn.Close()
+            cnn.Dispose()
+            sqlcmd.Dispose()
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+        Return Coleccion
+    End Function
 End Class

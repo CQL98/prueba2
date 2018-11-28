@@ -1,9 +1,7 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/PaginaMaestra/Plantilla.Master" CodeBehind="WebProductos.aspx.vb" Inherits="Sistema.WebProductos" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/PaginaMaestra/Plantilla.Master" CodeBehind="DetalleVenta.aspx.vb" Inherits="Sistema.DetalleVenta" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-
      <section class="content-header">
           <h1>
               Mantenedor de productos
@@ -20,7 +18,7 @@
           <!-- Default box -->
           <div class="box">
             <div class="box-header with-border">
-              <h3 class="box-title">PRODUCTOS</h3>
+              <h3 class="box-title">VENTA</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
@@ -28,13 +26,39 @@
                   <i class="fa fa-minus"></i></button>
                 <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
                   <i class="fa fa-times"></i></button>
+                  <asp:Button ID="Button2" runat="server" Text="Button" />
               </div>
             </div>
             <div class="box-body">
                 <section >
-                    
+                    <div>
+                        CREAR NUEVO VENTA
+                    </div>
                     <div>   
-                        <asp:Button ID="btnCrearNuevo" runat="server" Text="Nuevo Producto" />
+                        <asp:Label ID="lblNombreCliente" runat="server" Text="Label">NOMBRE CLIENTE: </asp:Label>
+                        <asp:TextBox ID="txtNombreCliente" runat="server"></asp:TextBox>
+                    </div>
+                    <div>   
+                        <asp:Label ID="lblApellidoCliente" runat="server" Text="Label">APELLIDOS CLIENTE: </asp:Label>
+                        <asp:TextBox ID="txtbApellidoCliente" runat="server"></asp:TextBox>
+                    </div>
+
+                     <div>   
+                         <asp:Label ID="lblProducto" runat="server" Text="Label">PRODUCTO: </asp:Label>
+                        <asp:DropDownList ID="ddlProducto" runat="server"></asp:DropDownList>
+                    </div>
+
+                    <div>   
+                        <asp:Label ID="lblCantidad" runat="server" Text="Label">CANTIDAD: </asp:Label>
+                        <asp:TextBox ID="txtCantidad" runat="server"></asp:TextBox>
+                    </div>
+                    <div>   
+                        <asp:Label ID="lblPrecio" runat="server" Text="Label">PRECIO: </asp:Label>
+                        <asp:TextBox ID="txtPrecio" runat="server"></asp:TextBox>
+                    </div>
+                   
+                    <div>   
+                        <asp:Button ID="btnCrearNuevo" runat="server" Text="Agregar Producto" />
                     </div>
                 </section>
 
@@ -55,7 +79,7 @@
                                 <asp:BoundField DataField="id_producto" HeaderText="ID" />
                                 <asp:BoundField DataField="nombre" HeaderText="NOMBRE" />
                                 <asp:BoundField DataField="precio" HeaderText="PRECIO" />
-                                <asp:BoundField DataField="stock" HeaderText="STOCK" />
+                                <asp:BoundField DataField="cantidad" HeaderText="STOCK" />
                                 <asp:BoundField DataField="id_categoria" HeaderText="CATEGORIA" />
                                 <asp:TemplateField HeaderText="ACCIONES">
                                     <ItemTemplate>
@@ -69,34 +93,7 @@
                 </section>
 
 
-                <section >
-                    <div>
-                        MODIFICAR PRODUCTO
-                        </div>
-                    <div>   
-                        <asp:Label ID="Label5" runat="server" Text="Label">Codigo Producto: </asp:Label>
-                        <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
-                    </div>
-                    <div>   
-                        <asp:Label ID="Label1" runat="server" Text="Label">NOMBRE: </asp:Label>
-                        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-                    </div>
-                    <div>   
-                        <asp:Label ID="Label2" runat="server" Text="Label">PRECIO: </asp:Label>
-                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                    </div>
-                    <div>   
-                        <asp:Label ID="Label3" runat="server" Text="Label">STOCK: </asp:Label>
-                        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
-                    </div>
-                    <div>   
-                         <asp:Label ID="Label4" runat="server" Text="Label">CATEGORIA: </asp:Label>
-                        <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
-                    </div>
-                    <div>
-                        <asp:Button ID="Button1" runat="server" Text="Editar Producto" />
-                    </div>
-                </section>
+                
 
             </div>
             <!-- /.box-body -->
@@ -122,25 +119,22 @@
                   <div class="modal-body">
                        <div class="row">
                                 <div class="col-md-12">
-                                   <div>
-                        CREAR NUEVO PRODUCTO
-                    </div>
-                    <div>   
-                        <asp:Label ID="lblNombreProducto" runat="server" Text="Label">NOMBRE: </asp:Label>
-                        <asp:TextBox ID="txtbNombreProducto" runat="server"></asp:TextBox>
-                    </div>
-                    <div>   
-                        <asp:Label ID="lblPrecioProducto" runat="server" Text="Label">PRECIO: </asp:Label>
-                        <asp:TextBox ID="txtbPrecioProducto" runat="server"></asp:TextBox>
-                    </div>
-                    <div>   
-                        <asp:Label ID="lblStockProducto" runat="server" Text="Label">STOCK: </asp:Label>
-                        <asp:TextBox ID="txtbStockProducto" runat="server"></asp:TextBox>
-                    </div>
-                    <div>   
-                         <asp:Label ID="lblCategoriaProducto" runat="server" Text="Label">CATEGORIA: </asp:Label>
-                        <asp:DropDownList ID="ddlCategoriaProducto" runat="server"></asp:DropDownList>
-                    </div>
+                                    <div class="form-group">
+                                        <asp:Label ID="Label7" runat="server" Text="Codigo"></asp:Label>
+                                        <asp:TextBox ID="Txtcodigo" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label ID="Label8" runat="server" Text="Descripcion"></asp:Label>
+                                        <asp:TextBox ID="TxtDescripcion" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label ID="lblPrecioM" runat="server" Text="Precio"></asp:Label>
+                                        <asp:TextBox ID="TxtPrecioM" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <div class="form-group">
+                                        <asp:Label ID="Label10" runat="server" Text="Cantidad"></asp:Label>
+                                        <asp:TextBox ID="TxtcantidadM" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
                                 </div>
                       </div>
                   </div>
@@ -157,7 +151,4 @@
 <!-- Bootstrap 3.3.7 -->
 
 <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-        
-
-
 </asp:Content>
