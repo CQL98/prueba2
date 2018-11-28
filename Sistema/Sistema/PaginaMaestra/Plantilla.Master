@@ -141,6 +141,7 @@
               <ul class="treeview-menu">
                 <li><a href="WebProductos.aspx"><i class="fa fa-circle-o"></i>Productos</a></li>
                 <li><a href="WebClientes.aspx"><i class="fa fa-circle-o"></i>Clientes</a></li>
+                <li><a href="WebUsuarios.aspx"><i class="fa fa-circle-o"></i>Usuarios</a></li>
               </ul>
             </li>
 

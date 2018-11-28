@@ -305,6 +305,7 @@
     <Content Include="WebLogin.aspx" />
     <Content Include="WebPrincipal.aspx" />
     <Content Include="WebProductos.aspx" />
+    <Content Include="WebUsuarios.aspx" />
     <Content Include="yarn.lock" />
   </ItemGroup>
   <ItemGroup>
@@ -537,6 +538,13 @@
     </Compile>
     <Compile Include="WebProductos.aspx.vb">
       <DependentUpon>WebProductos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="WebUsuarios.aspx.designer.vb">
+      <DependentUpon>WebUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebUsuarios.aspx.vb">
+      <DependentUpon>WebUsuarios.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
